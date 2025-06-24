@@ -1,0 +1,164 @@
+{
+  "discovery_timestamp": "2025-06-24 15:08:27",
+  "base_url": "https://www.matalan.co.uk",
+  "method": "Quick Pattern Testing",
+  "total_tested": 14,
+  "total_accessible": 10,
+  "success_rate": "71.4%",
+  "categories": {
+    "homepage": 1,
+    "product_pages": 1,
+    "category_pages": 7,
+    "static_pages": 1
+  },
+  "accessible_urls": [
+    {
+      "url": "https://www.matalan.co.uk/",
+      "status": 200,
+      "final_url": "https://www.matalan.co.uk/"
+    },
+    {
+      "url": "https://www.matalan.co.uk/clothing/brown-leaf-print-tunic-midaxi-dress/15824638.html",
+      "status": 200,
+      "final_url": "https://www.matalan.co.uk/clothing/brown-leaf-print-tunic-midaxi-dress/15824638.html"
+    },
+    {
+      "url": "https://www.matalan.co.uk/womens",
+      "status": 200,
+      "final_url": "https://www.matalan.co.uk/womens.list"
+    },
+    {
+      "url": "https://www.matalan.co.uk/mens",
+      "status": 200,
+      "final_url": "https://www.matalan.co.uk/mens.list"
+    },
+    {
+      "url": "https://www.matalan.co.uk/kids",
+      "status": 200,
+      "final_url": "https://www.matalan.co.uk/kids.list"
+    },
+    {
+      "url": "https://www.matalan.co.uk/home",
+      "status": 200,
+      "final_url": "https://www.matalan.co.uk/homeware.list"
+    },
+    {
+      "url": "https://www.matalan.co.uk/sale",
+      "status": 200,
+      "final_url": "https://www.matalan.co.uk/sale.list"
+    },
+    {
+      "url": "https://www.matalan.co.uk/men",
+      "status": 200,
+      "final_url": "https://www.matalan.co.uk/mens.list"
+    },
+    {
+      "url": "https://www.matalan.co.uk/baby",
+      "status": 200,
+      "final_url": "https://www.matalan.co.uk/baby.list"
+    },
+    {
+      "url": "https://www.matalan.co.uk/stores",
+      "status": 200,
+      "final_url": "https://www.matalan.co.uk/store-locator"
+    }
+  ],
+  "categorized_urls": {
+    "homepage": [
+      {
+        "url": "https://www.matalan.co.uk/",
+        "status": 200,
+        "final_url": "https://www.matalan.co.uk/"
+      }
+    ],
+    "product_pages": [
+      {
+        "url": "https://www.matalan.co.uk/clothing/brown-leaf-print-tunic-midaxi-dress/15824638.html",
+        "status": 200,
+        "final_url": "https://www.matalan.co.uk/clothing/brown-leaf-print-tunic-midaxi-dress/15824638.html"
+      }
+    ],
+    "category_pages": [
+      {
+        "url": "https://www.matalan.co.uk/womens",
+        "status": 200,
+        "final_url": "https://www.matalan.co.uk/womens.list"
+      },
+      {
+        "url": "https://www.matalan.co.uk/mens",
+        "status": 200,
+        "final_url": "https://www.matalan.co.uk/mens.list"
+      },
+      {
+        "url": "https://www.matalan.co.uk/kids",
+        "status": 200,
+        "final_url": "https://www.matalan.co.uk/kids.list"
+      },
+      {
+        "url": "https://www.matalan.co.uk/home",
+        "status": 200,
+        "final_url": "https://www.matalan.co.uk/homeware.list"
+      },
+      {
+        "url": "https://www.matalan.co.uk/sale",
+        "status": 200,
+        "final_url": "https://www.matalan.co.uk/sale.list"
+      },
+      {
+        "url": "https://www.matalan.co.uk/men",
+        "status": 200,
+        "final_url": "https://www.matalan.co.uk/mens.list"
+      },
+      {
+        "url": "https://www.matalan.co.uk/baby",
+        "status": 200,
+        "final_url": "https://www.matalan.co.uk/baby.list"
+      }
+    ],
+    "static_pages": [
+      {
+        "url": "https://www.matalan.co.uk/stores",
+        "status": 200,
+        "final_url": "https://www.matalan.co.uk/store-locator"
+      }
+    ]
+  },
+  "recommended_samples": {
+    "high_priority": [
+      {
+        "url": "https://www.matalan.co.uk/",
+        "status": 200,
+        "final_url": "https://www.matalan.co.uk/"
+      },
+      {
+        "url": "https://www.matalan.co.uk/womens",
+        "status": 200,
+        "final_url": "https://www.matalan.co.uk/womens.list"
+      },
+      {
+        "url": "https://www.matalan.co.uk/mens",
+        "status": 200,
+        "final_url": "https://www.matalan.co.uk/mens.list"
+      },
+      {
+        "url": "https://www.matalan.co.uk/kids",
+        "status": 200,
+        "final_url": "https://www.matalan.co.uk/kids.list"
+      }
+    ],
+    "medium_priority": [
+      {
+        "url": "https://www.matalan.co.uk/clothing/brown-leaf-print-tunic-midaxi-dress/15824638.html",
+        "status": 200,
+        "final_url": "https://www.matalan.co.uk/clothing/brown-leaf-print-tunic-midaxi-dress/15824638.html"
+      }
+    ],
+    "low_priority": [
+      {
+        "url": "https://www.matalan.co.uk/stores",
+        "status": 200,
+        "final_url": "https://www.matalan.co.uk/store-locator"
+      }
+    ]
+  }
+}

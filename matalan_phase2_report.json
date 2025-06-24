@@ -1,0 +1,654 @@
+{
+  "phase2_timestamp": "2025-06-24 15:11:55",
+  "discovery_data": {
+    "discovery_timestamp": "2025-06-24 15:08:27",
+    "base_url": "https://www.matalan.co.uk",
+    "method": "Quick Pattern Testing",
+    "total_tested": 14,
+    "total_accessible": 10,
+    "success_rate": "71.4%",
+    "categories": {
+      "homepage": 1,
+      "product_pages": 1,
+      "category_pages": 7,
+      "static_pages": 1
+    },
+    "accessible_urls": [
+      {
+        "url": "https://www.matalan.co.uk/",
+        "status": 200,
+        "final_url": "https://www.matalan.co.uk/"
+      },
+      {
+        "url": "https://www.matalan.co.uk/clothing/brown-leaf-print-tunic-midaxi-dress/15824638.html",
+        "status": 200,
+        "final_url": "https://www.matalan.co.uk/clothing/brown-leaf-print-tunic-midaxi-dress/15824638.html"
+      },
+      {
+        "url": "https://www.matalan.co.uk/womens",
+        "status": 200,
+        "final_url": "https://www.matalan.co.uk/womens.list"
+      },
+      {
+        "url": "https://www.matalan.co.uk/mens",
+        "status": 200,
+        "final_url": "https://www.matalan.co.uk/mens.list"
+      },
+      {
+        "url": "https://www.matalan.co.uk/kids",
+        "status": 200,
+        "final_url": "https://www.matalan.co.uk/kids.list"
+      },
+      {
+        "url": "https://www.matalan.co.uk/home",
+        "status": 200,
+        "final_url": "https://www.matalan.co.uk/homeware.list"
+      },
+      {
+        "url": "https://www.matalan.co.uk/sale",
+        "status": 200,
+        "final_url": "https://www.matalan.co.uk/sale.list"
+      },
+      {
+        "url": "https://www.matalan.co.uk/men",
+        "status": 200,
+        "final_url": "https://www.matalan.co.uk/mens.list"
+      },
+      {
+        "url": "https://www.matalan.co.uk/baby",
+        "status": 200,
+        "final_url": "https://www.matalan.co.uk/baby.list"
+      },
+      {
+        "url": "https://www.matalan.co.uk/stores",
+        "status": 200,
+        "final_url": "https://www.matalan.co.uk/store-locator"
+      }
+    ],
+    "categorized_urls": {
+      "homepage": [
+        {
+          "url": "https://www.matalan.co.uk/",
+          "status": 200,
+          "final_url": "https://www.matalan.co.uk/"
+        }
+      ],
+      "product_pages": [
+        {
+          "url": "https://www.matalan.co.uk/clothing/brown-leaf-print-tunic-midaxi-dress/15824638.html",
+          "status": 200,
+          "final_url": "https://www.matalan.co.uk/clothing/brown-leaf-print-tunic-midaxi-dress/15824638.html"
+        }
+      ],
+      "category_pages": [
+        {
+          "url": "https://www.matalan.co.uk/womens",
+          "status": 200,
+          "final_url": "https://www.matalan.co.uk/womens.list"
+        },
+        {
+          "url": "https://www.matalan.co.uk/mens",
+          "status": 200,
+          "final_url": "https://www.matalan.co.uk/mens.list"
+        },
+        {
+          "url": "https://www.matalan.co.uk/kids",
+          "status": 200,
+          "final_url": "https://www.matalan.co.uk/kids.list"
+        },
+        {
+          "url": "https://www.matalan.co.uk/home",
+          "status": 200,
+          "final_url": "https://www.matalan.co.uk/homeware.list"
+        },
+        {
+          "url": "https://www.matalan.co.uk/sale",
+          "status": 200,
+          "final_url": "https://www.matalan.co.uk/sale.list"
+        },
+        {
+          "url": "https://www.matalan.co.uk/men",
+          "status": 200,
+          "final_url": "https://www.matalan.co.uk/mens.list"
+        },
+        {
+          "url": "https://www.matalan.co.uk/baby",
+          "status": 200,
+          "final_url": "https://www.matalan.co.uk/baby.list"
+        }
+      ],
+      "static_pages": [
+        {
+          "url": "https://www.matalan.co.uk/stores",
+          "status": 200,
+          "final_url": "https://www.matalan.co.uk/store-locator"
+        }
+      ]
+    },
+    "recommended_samples": {
+      "high_priority": [
+        {
+          "url": "https://www.matalan.co.uk/",
+          "status": 200,
+          "final_url": "https://www.matalan.co.uk/"
+        },
+        {
+          "url": "https://www.matalan.co.uk/womens",
+          "status": 200,
+          "final_url": "https://www.matalan.co.uk/womens.list"
+        },
+        {
+          "url": "https://www.matalan.co.uk/mens",
+          "status": 200,
+          "final_url": "https://www.matalan.co.uk/mens.list"
+        },
+        {
+          "url": "https://www.matalan.co.uk/kids",
+          "status": 200,
+          "final_url": "https://www.matalan.co.uk/kids.list"
+        }
+      ],
+      "medium_priority": [
+        {
+          "url": "https://www.matalan.co.uk/clothing/brown-leaf-print-tunic-midaxi-dress/15824638.html",
+          "status": 200,
+          "final_url": "https://www.matalan.co.uk/clothing/brown-leaf-print-tunic-midaxi-dress/15824638.html"
+        }
+      ],
+      "low_priority": [
+        {
+          "url": "https://www.matalan.co.uk/stores",
+          "status": 200,
+          "final_url": "https://www.matalan.co.uk/store-locator"
+        }
+      ]
+    }
+  },
+  "analysis_summary": {
+    "pages_analyzed": 6,
+    "successful_analyses": 6,
+    "total_images": 92,
+    "accessible_images": 92,
+    "overall_accessibility_score": 100.0
+  },
+  "widget_summary": {
+    "navigation": 6,
+    "footer": 6,
+    "product_gallery": 1,
+    "add_to_cart": 1,
+    "forms": 1
+  },
+  "detailed_results": {
+    "https://www.matalan.co.uk/": {
+      "url": "https://www.matalan.co.uk/",
+      "page_type": "homepage",
+      "status": "success",
+      "images": {
+        "total_images": 31,
+        "with_alt": 27,
+        "missing_alt": 0,
+        "empty_alt": 4,
+        "long_alt": 0,
+        "decorative": 4,
+        "issues": [],
+        "accessibility_score": 100.0
+      },
+      "widgets": {
+        "hero_banner": {
+          "found": false,
+          "count": 0,
+          "has_images": false
+        },
+        "featured_categories": {
+          "found": false,
+          "count": 0
+        },
+        "navigation": {
+          "found": true,
+          "nav_count": 4
+        },
+        "footer": {
+          "found": true
+        },
+        "search": {
+          "found": false
+        }
+      },
+      "structure": {
+        "total_elements": 3046,
+        "headings": {
+          "h1": 0,
+          "h2": 7,
+          "h3": 17,
+          "h4": 0,
+          "h5": 0,
+          "h6": 0
+        },
+        "interactive_elements": {
+          "buttons": 32,
+          "links": 827,
+          "inputs": 2,
+          "selects": 0
+        },
+        "media_elements": {
+          "images": 31,
+          "videos": 0,
+          "iframes": 0
+        }
+      },
+      "accessibility": {
+        "aria_usage": {
+          "elements_with_aria": 103,
+          "aria_labels": 101,
+          "aria_labelledby": 2,
+          "aria_describedby": 0
+        },
+        "skip_links": {
+          "found": true,
+          "count": 1
+        },
+        "form_accessibility": {
+          "labels": 2,
+          "inputs": 2,
+          "label_ratio": 1.0
+        }
+      },
+      "analysis_timestamp": "2025-06-24 15:11:44"
+    },
+    "https://www.matalan.co.uk/womens": {
+      "url": "https://www.matalan.co.uk/womens",
+      "page_type": "category",
+      "status": "success",
+      "images": {
+        "total_images": 12,
+        "with_alt": 3,
+        "missing_alt": 0,
+        "empty_alt": 9,
+        "long_alt": 0,
+        "decorative": 9,
+        "issues": [],
+        "accessibility_score": 100.0
+      },
+      "widgets": {
+        "product_grid": {
+          "found": false,
+          "product_count": 0
+        },
+        "filters": {
+          "found": false,
+          "filter_sections": 0
+        },
+        "pagination": {
+          "found": false
+        },
+        "navigation": {
+          "found": true,
+          "nav_count": 5
+        },
+        "footer": {
+          "found": true
+        },
+        "search": {
+          "found": false
+        }
+      },
+      "structure": {
+        "total_elements": 2488,
+        "headings": {
+          "h1": 1,
+          "h2": 7,
+          "h3": 13,
+          "h4": 0,
+          "h5": 0,
+          "h6": 0
+        },
+        "interactive_elements": {
+          "buttons": 18,
+          "links": 772,
+          "inputs": 2,
+          "selects": 0
+        },
+        "media_elements": {
+          "images": 12,
+          "videos": 0,
+          "iframes": 0
+        }
+      },
+      "accessibility": {
+        "aria_usage": {
+          "elements_with_aria": 70,
+          "aria_labels": 68,
+          "aria_labelledby": 2,
+          "aria_describedby": 0
+        },
+        "skip_links": {
+          "found": true,
+          "count": 1
+        },
+        "form_accessibility": {
+          "labels": 2,
+          "inputs": 2,
+          "label_ratio": 1.0
+        }
+      },
+      "analysis_timestamp": "2025-06-24 15:11:46"
+    },
+    "https://www.matalan.co.uk/mens": {
+      "url": "https://www.matalan.co.uk/mens",
+      "page_type": "category",
+      "status": "success",
+      "images": {
+        "total_images": 12,
+        "with_alt": 3,
+        "missing_alt": 0,
+        "empty_alt": 9,
+        "long_alt": 0,
+        "decorative": 9,
+        "issues": [],
+        "accessibility_score": 100.0
+      },
+      "widgets": {
+        "product_grid": {
+          "found": false,
+          "product_count": 0
+        },
+        "filters": {
+          "found": false,
+          "filter_sections": 0
+        },
+        "pagination": {
+          "found": false
+        },
+        "navigation": {
+          "found": true,
+          "nav_count": 5
+        },
+        "footer": {
+          "found": true
+        },
+        "search": {
+          "found": false
+        }
+      },
+      "structure": {
+        "total_elements": 2487,
+        "headings": {
+          "h1": 1,
+          "h2": 7,
+          "h3": 13,
+          "h4": 0,
+          "h5": 0,
+          "h6": 0
+        },
+        "interactive_elements": {
+          "buttons": 18,
+          "links": 774,
+          "inputs": 2,
+          "selects": 0
+        },
+        "media_elements": {
+          "images": 12,
+          "videos": 0,
+          "iframes": 0
+        }
+      },
+      "accessibility": {
+        "aria_usage": {
+          "elements_with_aria": 70,
+          "aria_labels": 68,
+          "aria_labelledby": 2,
+          "aria_describedby": 0
+        },
+        "skip_links": {
+          "found": true,
+          "count": 1
+        },
+        "form_accessibility": {
+          "labels": 2,
+          "inputs": 2,
+          "label_ratio": 1.0
+        }
+      },
+      "analysis_timestamp": "2025-06-24 15:11:48"
+    },
+    "https://www.matalan.co.uk/kids": {
+      "url": "https://www.matalan.co.uk/kids",
+      "page_type": "category",
+      "status": "success",
+      "images": {
+        "total_images": 18,
+        "with_alt": 5,
+        "missing_alt": 0,
+        "empty_alt": 13,
+        "long_alt": 0,
+        "decorative": 13,
+        "issues": [],
+        "accessibility_score": 100.0
+      },
+      "widgets": {
+        "product_grid": {
+          "found": false,
+          "product_count": 0
+        },
+        "filters": {
+          "found": false,
+          "filter_sections": 0
+        },
+        "pagination": {
+          "found": false
+        },
+        "navigation": {
+          "found": true,
+          "nav_count": 5
+        },
+        "footer": {
+          "found": true
+        },
+        "search": {
+          "found": false
+        }
+      },
+      "structure": {
+        "total_elements": 2564,
+        "headings": {
+          "h1": 1,
+          "h2": 8,
+          "h3": 13,
+          "h4": 0,
+          "h5": 0,
+          "h6": 0
+        },
+        "interactive_elements": {
+          "buttons": 18,
+          "links": 781,
+          "inputs": 2,
+          "selects": 0
+        },
+        "media_elements": {
+          "images": 18,
+          "videos": 0,
+          "iframes": 0
+        }
+      },
+      "accessibility": {
+        "aria_usage": {
+          "elements_with_aria": 72,
+          "aria_labels": 70,
+          "aria_labelledby": 2,
+          "aria_describedby": 0
+        },
+        "skip_links": {
+          "found": true,
+          "count": 1
+        },
+        "form_accessibility": {
+          "labels": 2,
+          "inputs": 2,
+          "label_ratio": 1.0
+        }
+      },
+      "analysis_timestamp": "2025-06-24 15:11:50"
+    },
+    "https://www.matalan.co.uk/clothing/brown-leaf-print-tunic-midaxi-dress/15824638.html": {
+      "url": "https://www.matalan.co.uk/clothing/brown-leaf-print-tunic-midaxi-dress/15824638.html",
+      "page_type": "product",
+      "status": "success",
+      "images": {
+        "total_images": 19,
+        "with_alt": 16,
+        "missing_alt": 0,
+        "empty_alt": 3,
+        "long_alt": 0,
+        "decorative": 3,
+        "issues": [],
+        "accessibility_score": 100.0
+      },
+      "widgets": {
+        "product_gallery": {
+          "found": true,
+          "image_count": 19
+        },
+        "product_info": {
+          "price_found": false,
+          "price_elements": 0
+        },
+        "add_to_cart": {
+          "found": true,
+          "button_count": 2
+        },
+        "recommendations": {
+          "found": false
+        },
+        "navigation": {
+          "found": true,
+          "nav_count": 5
+        },
+        "footer": {
+          "found": true
+        },
+        "search": {
+          "found": false
+        }
+      },
+      "structure": {
+        "total_elements": 2872,
+        "headings": {
+          "h1": 1,
+          "h2": 8,
+          "h3": 10,
+          "h4": 0,
+          "h5": 0,
+          "h6": 0
+        },
+        "interactive_elements": {
+          "buttons": 41,
+          "links": 795,
+          "inputs": 3,
+          "selects": 0
+        },
+        "media_elements": {
+          "images": 19,
+          "videos": 0,
+          "iframes": 0
+        }
+      },
+      "accessibility": {
+        "aria_usage": {
+          "elements_with_aria": 103,
+          "aria_labels": 100,
+          "aria_labelledby": 3,
+          "aria_describedby": 0
+        },
+        "skip_links": {
+          "found": true,
+          "count": 1
+        },
+        "form_accessibility": {
+          "labels": 4,
+          "inputs": 3,
+          "label_ratio": 1.3333333333333333
+        }
+      },
+      "analysis_timestamp": "2025-06-24 15:11:53"
+    },
+    "https://www.matalan.co.uk/stores": {
+      "url": "https://www.matalan.co.uk/stores",
+      "page_type": "static",
+      "status": "success",
+      "images": {
+        "total_images": 0,
+        "with_alt": 0,
+        "missing_alt": 0,
+        "empty_alt": 0,
+        "long_alt": 0,
+        "decorative": 0,
+        "issues": [],
+        "accessibility_score": 0
+      },
+      "widgets": {
+        "forms": {
+          "found": true,
+          "form_count": 3
+        },
+        "maps": {
+          "found": false
+        },
+        "navigation": {
+          "found": true,
+          "nav_count": 5
+        },
+        "footer": {
+          "found": true
+        },
+        "search": {
+          "found": false
+        }
+      },
+      "structure": {
+        "total_elements": 2252,
+        "headings": {
+          "h1": 1,
+          "h2": 4,
+          "h3": 0,
+          "h4": 0,
+          "h5": 0,
+          "h6": 0
+        },
+        "interactive_elements": {
+          "buttons": 16,
+          "links": 748,
+          "inputs": 3,
+          "selects": 0
+        },
+        "media_elements": {
+          "images": 0,
+          "videos": 0,
+          "iframes": 0
+        }
+      },
+      "accessibility": {
+        "aria_usage": {
+          "elements_with_aria": 65,
+          "aria_labels": 63,
+          "aria_labelledby": 2,
+          "aria_describedby": 0
+        },
+        "skip_links": {
+          "found": true,
+          "count": 1
+        },
+        "form_accessibility": {
+          "labels": 3,
+          "inputs": 3,
+          "label_ratio": 1.0
+        }
+      },
+      "analysis_timestamp": "2025-06-24 15:11:55"
+    }
+  },
+  "recommendations": {
+    "high_priority": [],
+    "medium_priority": [],
+    "low_priority": []
+  }
+}

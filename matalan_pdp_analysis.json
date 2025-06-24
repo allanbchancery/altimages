@@ -1,0 +1,1614 @@
+{
+  "summary": {
+    "total_pdps_analyzed": 9,
+    "total_images": 162,
+    "alt_tag_compliance": {
+      "total_missing": 0,
+      "total_good": 135,
+      "compliance_rate": 83.33333333333334
+    },
+    "widget_frequency": {},
+    "category_breakdown": {
+      "home": 3,
+      "baby": 2,
+      "clothing": 4
+    },
+    "most_common_widgets": []
+  },
+  "detailed_results": {
+    "https://www.matalan.co.uk/home/blue-denim-jeans/15824639.html": {
+      "url": "https://www.matalan.co.uk/home/blue-denim-jeans/15824639.html",
+      "product_info": {
+        "title": "Brown Leaf Print Tunic Midaxi Dress",
+        "category": "home",
+        "price": "",
+        "product_id": "15824639"
+      },
+      "image_analysis": {
+        "total_images": 18,
+        "with_alt": 15,
+        "missing_alt": 0,
+        "empty_alt": 3,
+        "good_alt": 15,
+        "long_alt": 0,
+        "images_detail": [
+          {
+            "index": 1,
+            "src": "https://ml.thcdn.com/productimg/381/533/15824638-3245250267752079.jpg",
+            "alt_text": "Brown Leaf Print Tunic Midaxi Dress",
+            "type": "product_image",
+            "status": "good",
+            "issue": ""
+          },
+          {
+            "index": 2,
+            "src": "https://ml.thcdn.com/productimg/381/533/15824638-5235250267780222.jpg",
+            "alt_text": "Brown Leaf Print Tunic Midaxi Dress",
+            "type": "product_image",
+            "status": "good",
+            "issue": ""
+          },
+          {
+            "index": 3,
+            "src": "https://ml.thcdn.com/productimg/381/533/15824638-2785250267693018.jpg",
+            "alt_text": "Brown Leaf Print Tunic Midaxi Dress",
+            "type": "product_image",
+            "status": "good",
+            "issue": ""
+          },
+          {
+            "index": 4,
+            "src": "https://ml.thcdn.com/productimg/960/960/15824638-3245250267752079.jpg",
+            "alt_text": "Brown Leaf Print Tunic Midaxi Dress",
+            "type": "product_image",
+            "status": "good",
+            "issue": ""
+          },
+          {
+            "index": 5,
+            "src": "https://ml.thcdn.com/productimg/960/960/15824638-5235250267780222.jpg",
+            "alt_text": "Brown Leaf Print Tunic Midaxi Dress",
+            "type": "product_image",
+            "status": "good",
+            "issue": ""
+          },
+          {
+            "index": 6,
+            "src": "https://ml.thcdn.com/productimg/960/960/15824638-2785250267693018.jpg",
+            "alt_text": "Brown Leaf Print Tunic Midaxi Dress",
+            "type": "product_image",
+            "status": "good",
+            "issue": ""
+          },
+          {
+            "index": 7,
+            "src": "https://ml.thcdn.com/productimg/70/70/15824638-3245250267752079.jpg",
+            "alt_text": "",
+            "type": "product_image",
+            "status": "empty",
+            "issue": "Empty alt text"
+          },
+          {
+            "index": 8,
+            "src": "https://ml.thcdn.com/productimg/70/70/15824638-5235250267780222.jpg",
+            "alt_text": "",
+            "type": "product_image",
+            "status": "empty",
+            "issue": "Empty alt text"
+          },
+          {
+            "index": 9,
+            "src": "https://ml.thcdn.com/productimg/70/70/15824638-2785250267693018.jpg",
+            "alt_text": "",
+            "type": "product_image",
+            "status": "empty",
+            "issue": "Empty alt text"
+          },
+          {
+            "index": 10,
+            "src": "https://ml.thcdn.com/productimg/401/456/15824647-2035241430938921.jpg",
+            "alt_text": "Green Paisley Print Tunic Midaxi Dress",
+            "type": "product_image",
+            "status": "good",
+            "issue": ""
+          },
+          {
+            "index": 11,
+            "src": "https://ml.thcdn.com/productimg/401/456/15708955-1975236302062700.jpg",
+            "alt_text": "Beige Zebra Tunic Midaxi Dress",
+            "type": "product_image",
+            "status": "good",
+            "issue": ""
+          },
+          {
+            "index": 12,
+            "src": "https://ml.thcdn.com/productimg/401/456/15708964-1395226881081490.jpg",
+            "alt_text": "Black Monochrome Leaf Print Tunic Midaxi Dress",
+            "type": "product_image",
+            "status": "good",
+            "issue": ""
+          },
+          {
+            "index": 13,
+            "src": "https://ml.thcdn.com/productimg/401/456/15708981-6555226641162466.jpg",
+            "alt_text": "White Monochrome Leaf Print Tunic Midaxi Dress",
+            "type": "product_image",
+            "status": "good",
+            "issue": ""
+          },
+          {
+            "index": 14,
+            "src": "https://ml.thcdn.com/productimg/401/456/15674518-1425226640191234.jpg",
+            "alt_text": "Brown Leopard Print Tunic Midaxi Dress",
+            "type": "product_image",
+            "status": "good",
+            "issue": ""
+          },
+          {
+            "index": 15,
+            "src": "https://ml.thcdn.com/productimg/401/456/15785964-9205232839406168.jpg",
+            "alt_text": "Taupe Stripe Raglan Midi Shirt Dress",
+            "type": "product_image",
+            "status": "good",
+            "issue": ""
+          },
+          {
+            "index": 16,
+            "src": "https://ml.thcdn.com/productimg/401/456/15628653-1425228950238862.jpg",
+            "alt_text": "Et Vous Blue Palm Tie Waist Midaxi Dress",
+            "type": "product_image",
+            "status": "good",
+            "issue": ""
+          },
+          {
+            "index": 17,
+            "src": "https://ml.thcdn.com/productimg/401/456/15785952-2115247349119894.jpg",
+            "alt_text": "Green Floral Raglan Midi Shirt Dress",
+            "type": "product_image",
+            "status": "good",
+            "issue": ""
+          },
+          {
+            "index": 18,
+            "src": "https://ml.thcdn.com/productimg/401/456/15709655-1365232676107693.jpg",
+            "alt_text": "Papaya Petite Pink Raglan Shirt Midi Dress",
+            "type": "product_image",
+            "status": "good",
+            "issue": ""
+          }
+        ],
+        "issues": [],
+        "compliance_score": 100.0
+      },
+      "widgets": {},
+      "structure": {
+        "total_elements": 2829,
+        "images": 18,
+        "buttons": 41,
+        "forms": 2,
+        "inputs": 3,
+        "selects": 0,
+        "links": 787
+      },
+      "analysis_timestamp": "2025-06-24 15:43:48",
+      "status": "success"
+    },
+    "https://www.matalan.co.uk/baby/navy-trousers/15824643.html": {
+      "url": "https://www.matalan.co.uk/baby/navy-trousers/15824643.html",
+      "product_info": {
+        "title": "Brown Leaf Print Tunic Midaxi Dress",
+        "category": "baby",
+        "price": "",
+        "product_id": "15824643"
+      },
+      "image_analysis": {
+        "total_images": 18,
+        "with_alt": 15,
+        "missing_alt": 0,
+        "empty_alt": 3,
+        "good_alt": 15,
+        "long_alt": 0,
+        "images_detail": [
+          {
+            "index": 1,
+            "src": "https://ml.thcdn.com/productimg/381/533/15824638-3245250267752079.jpg",
+            "alt_text": "Brown Leaf Print Tunic Midaxi Dress",
+            "type": "product_image",
+            "status": "good",
+            "issue": ""
+          },
+          {
+            "index": 2,
+            "src": "https://ml.thcdn.com/productimg/381/533/15824638-5235250267780222.jpg",
+            "alt_text": "Brown Leaf Print Tunic Midaxi Dress",
+            "type": "product_image",
+            "status": "good",
+            "issue": ""
+          },
+          {
+            "index": 3,
+            "src": "https://ml.thcdn.com/productimg/381/533/15824638-2785250267693018.jpg",
+            "alt_text": "Brown Leaf Print Tunic Midaxi Dress",
+            "type": "product_image",
+            "status": "good",
+            "issue": ""
+          },
+          {
+            "index": 4,
+            "src": "https://ml.thcdn.com/productimg/960/960/15824638-3245250267752079.jpg",
+            "alt_text": "Brown Leaf Print Tunic Midaxi Dress",
+            "type": "product_image",
+            "status": "good",
+            "issue": ""
+          },
+          {
+            "index": 5,
+            "src": "https://ml.thcdn.com/productimg/960/960/15824638-5235250267780222.jpg",
+            "alt_text": "Brown Leaf Print Tunic Midaxi Dress",
+            "type": "product_image",
+            "status": "good",
+            "issue": ""
+          },
+          {
+            "index": 6,
+            "src": "https://ml.thcdn.com/productimg/960/960/15824638-2785250267693018.jpg",
+            "alt_text": "Brown Leaf Print Tunic Midaxi Dress",
+            "type": "product_image",
+            "status": "good",
+            "issue": ""
+          },
+          {
+            "index": 7,
+            "src": "https://ml.thcdn.com/productimg/70/70/15824638-3245250267752079.jpg",
+            "alt_text": "",
+            "type": "product_image",
+            "status": "empty",
+            "issue": "Empty alt text"
+          },
+          {
+            "index": 8,
+            "src": "https://ml.thcdn.com/productimg/70/70/15824638-5235250267780222.jpg",
+            "alt_text": "",
+            "type": "product_image",
+            "status": "empty",
+            "issue": "Empty alt text"
+          },
+          {
+            "index": 9,
+            "src": "https://ml.thcdn.com/productimg/70/70/15824638-2785250267693018.jpg",
+            "alt_text": "",
+            "type": "product_image",
+            "status": "empty",
+            "issue": "Empty alt text"
+          },
+          {
+            "index": 10,
+            "src": "https://ml.thcdn.com/productimg/401/456/15824647-2035241430938921.jpg",
+            "alt_text": "Green Paisley Print Tunic Midaxi Dress",
+            "type": "product_image",
+            "status": "good",
+            "issue": ""
+          },
+          {
+            "index": 11,
+            "src": "https://ml.thcdn.com/productimg/401/456/15708955-1975236302062700.jpg",
+            "alt_text": "Beige Zebra Tunic Midaxi Dress",
+            "type": "product_image",
+            "status": "good",
+            "issue": ""
+          },
+          {
+            "index": 12,
+            "src": "https://ml.thcdn.com/productimg/401/456/15708981-6555226641162466.jpg",
+            "alt_text": "White Monochrome Leaf Print Tunic Midaxi Dress",
+            "type": "product_image",
+            "status": "good",
+            "issue": ""
+          },
+          {
+            "index": 13,
+            "src": "https://ml.thcdn.com/productimg/401/456/15708964-1395226881081490.jpg",
+            "alt_text": "Black Monochrome Leaf Print Tunic Midaxi Dress",
+            "type": "product_image",
+            "status": "good",
+            "issue": ""
+          },
+          {
+            "index": 14,
+            "src": "https://ml.thcdn.com/productimg/401/456/15674518-1425226640191234.jpg",
+            "alt_text": "Brown Leopard Print Tunic Midaxi Dress",
+            "type": "product_image",
+            "status": "good",
+            "issue": ""
+          },
+          {
+            "index": 15,
+            "src": "https://ml.thcdn.com/productimg/401/456/15785964-9205232839406168.jpg",
+            "alt_text": "Taupe Stripe Raglan Midi Shirt Dress",
+            "type": "product_image",
+            "status": "good",
+            "issue": ""
+          },
+          {
+            "index": 16,
+            "src": "https://ml.thcdn.com/productimg/401/456/15628653-1425228950238862.jpg",
+            "alt_text": "Et Vous Blue Palm Tie Waist Midaxi Dress",
+            "type": "product_image",
+            "status": "good",
+            "issue": ""
+          },
+          {
+            "index": 17,
+            "src": "https://ml.thcdn.com/productimg/401/456/14710734-1075086916369784.jpg",
+            "alt_text": "Brown Cotton Leggings",
+            "type": "product_image",
+            "status": "good",
+            "issue": ""
+          },
+          {
+            "index": 18,
+            "src": "https://ml.thcdn.com/productimg/401/456/15785952-2115247349119894.jpg",
+            "alt_text": "Green Floral Raglan Midi Shirt Dress",
+            "type": "product_image",
+            "status": "good",
+            "issue": ""
+          }
+        ],
+        "issues": [],
+        "compliance_score": 100.0
+      },
+      "widgets": {},
+      "structure": {
+        "total_elements": 2844,
+        "images": 18,
+        "buttons": 41,
+        "forms": 2,
+        "inputs": 3,
+        "selects": 0,
+        "links": 791
+      },
+      "analysis_timestamp": "2025-06-24 15:43:52",
+      "status": "success"
+    },
+    "https://www.matalan.co.uk/baby/white-cotton-shirt/15824640.html": {
+      "url": "https://www.matalan.co.uk/baby/white-cotton-shirt/15824640.html",
+      "product_info": {
+        "title": "Brown Leaf Print Tunic Midaxi Dress",
+        "category": "baby",
+        "price": "",
+        "product_id": "15824640"
+      },
+      "image_analysis": {
+        "total_images": 18,
+        "with_alt": 15,
+        "missing_alt": 0,
+        "empty_alt": 3,
+        "good_alt": 15,
+        "long_alt": 0,
+        "images_detail": [
+          {
+            "index": 1,
+            "src": "https://ml.thcdn.com/productimg/381/533/15824638-3245250267752079.jpg",
+            "alt_text": "Brown Leaf Print Tunic Midaxi Dress",
+            "type": "product_image",
+            "status": "good",
+            "issue": ""
+          },
+          {
+            "index": 2,
+            "src": "https://ml.thcdn.com/productimg/381/533/15824638-5235250267780222.jpg",
+            "alt_text": "Brown Leaf Print Tunic Midaxi Dress",
+            "type": "product_image",
+            "status": "good",
+            "issue": ""
+          },
+          {
+            "index": 3,
+            "src": "https://ml.thcdn.com/productimg/381/533/15824638-2785250267693018.jpg",
+            "alt_text": "Brown Leaf Print Tunic Midaxi Dress",
+            "type": "product_image",
+            "status": "good",
+            "issue": ""
+          },
+          {
+            "index": 4,
+            "src": "https://ml.thcdn.com/productimg/960/960/15824638-3245250267752079.jpg",
+            "alt_text": "Brown Leaf Print Tunic Midaxi Dress",
+            "type": "product_image",
+            "status": "good",
+            "issue": ""
+          },
+          {
+            "index": 5,
+            "src": "https://ml.thcdn.com/productimg/960/960/15824638-5235250267780222.jpg",
+            "alt_text": "Brown Leaf Print Tunic Midaxi Dress",
+            "type": "product_image",
+            "status": "good",
+            "issue": ""
+          },
+          {
+            "index": 6,
+            "src": "https://ml.thcdn.com/productimg/960/960/15824638-2785250267693018.jpg",
+            "alt_text": "Brown Leaf Print Tunic Midaxi Dress",
+            "type": "product_image",
+            "status": "good",
+            "issue": ""
+          },
+          {
+            "index": 7,
+            "src": "https://ml.thcdn.com/productimg/70/70/15824638-3245250267752079.jpg",
+            "alt_text": "",
+            "type": "product_image",
+            "status": "empty",
+            "issue": "Empty alt text"
+          },
+          {
+            "index": 8,
+            "src": "https://ml.thcdn.com/productimg/70/70/15824638-5235250267780222.jpg",
+            "alt_text": "",
+            "type": "product_image",
+            "status": "empty",
+            "issue": "Empty alt text"
+          },
+          {
+            "index": 9,
+            "src": "https://ml.thcdn.com/productimg/70/70/15824638-2785250267693018.jpg",
+            "alt_text": "",
+            "type": "product_image",
+            "status": "empty",
+            "issue": "Empty alt text"
+          },
+          {
+            "index": 10,
+            "src": "https://ml.thcdn.com/productimg/401/456/15824647-2035241430938921.jpg",
+            "alt_text": "Green Paisley Print Tunic Midaxi Dress",
+            "type": "product_image",
+            "status": "good",
+            "issue": ""
+          },
+          {
+            "index": 11,
+            "src": "https://ml.thcdn.com/productimg/401/456/15708955-1975236302062700.jpg",
+            "alt_text": "Beige Zebra Tunic Midaxi Dress",
+            "type": "product_image",
+            "status": "good",
+            "issue": ""
+          },
+          {
+            "index": 12,
+            "src": "https://ml.thcdn.com/productimg/401/456/15708981-6555226641162466.jpg",
+            "alt_text": "White Monochrome Leaf Print Tunic Midaxi Dress",
+            "type": "product_image",
+            "status": "good",
+            "issue": ""
+          },
+          {
+            "index": 13,
+            "src": "https://ml.thcdn.com/productimg/401/456/15708964-1395226881081490.jpg",
+            "alt_text": "Black Monochrome Leaf Print Tunic Midaxi Dress",
+            "type": "product_image",
+            "status": "good",
+            "issue": ""
+          },
+          {
+            "index": 14,
+            "src": "https://ml.thcdn.com/productimg/401/456/15674518-1425226640191234.jpg",
+            "alt_text": "Brown Leopard Print Tunic Midaxi Dress",
+            "type": "product_image",
+            "status": "good",
+            "issue": ""
+          },
+          {
+            "index": 15,
+            "src": "https://ml.thcdn.com/productimg/401/456/15785964-9205232839406168.jpg",
+            "alt_text": "Taupe Stripe Raglan Midi Shirt Dress",
+            "type": "product_image",
+            "status": "good",
+            "issue": ""
+          },
+          {
+            "index": 16,
+            "src": "https://ml.thcdn.com/productimg/401/456/15628653-1425228950238862.jpg",
+            "alt_text": "Et Vous Blue Palm Tie Waist Midaxi Dress",
+            "type": "product_image",
+            "status": "good",
+            "issue": ""
+          },
+          {
+            "index": 17,
+            "src": "https://ml.thcdn.com/productimg/401/456/14710734-1075086916369784.jpg",
+            "alt_text": "Brown Cotton Leggings",
+            "type": "product_image",
+            "status": "good",
+            "issue": ""
+          },
+          {
+            "index": 18,
+            "src": "https://ml.thcdn.com/productimg/401/456/15785952-2115247349119894.jpg",
+            "alt_text": "Green Floral Raglan Midi Shirt Dress",
+            "type": "product_image",
+            "status": "good",
+            "issue": ""
+          }
+        ],
+        "issues": [],
+        "compliance_score": 100.0
+      },
+      "widgets": {},
+      "structure": {
+        "total_elements": 2844,
+        "images": 18,
+        "buttons": 41,
+        "forms": 2,
+        "inputs": 3,
+        "selects": 0,
+        "links": 791
+      },
+      "analysis_timestamp": "2025-06-24 15:43:55",
+      "status": "success"
+    },
+    "https://www.matalan.co.uk/clothing/pink-blouse/15824644.html": {
+      "url": "https://www.matalan.co.uk/clothing/pink-blouse/15824644.html",
+      "product_info": {
+        "title": "Brown Leaf Print Tunic Midaxi Dress",
+        "category": "clothing",
+        "price": "",
+        "product_id": "15824644"
+      },
+      "image_analysis": {
+        "total_images": 18,
+        "with_alt": 15,
+        "missing_alt": 0,
+        "empty_alt": 3,
+        "good_alt": 15,
+        "long_alt": 0,
+        "images_detail": [
+          {
+            "index": 1,
+            "src": "https://ml.thcdn.com/productimg/381/533/15824638-3245250267752079.jpg",
+            "alt_text": "Brown Leaf Print Tunic Midaxi Dress",
+            "type": "product_image",
+            "status": "good",
+            "issue": ""
+          },
+          {
+            "index": 2,
+            "src": "https://ml.thcdn.com/productimg/381/533/15824638-5235250267780222.jpg",
+            "alt_text": "Brown Leaf Print Tunic Midaxi Dress",
+            "type": "product_image",
+            "status": "good",
+            "issue": ""
+          },
+          {
+            "index": 3,
+            "src": "https://ml.thcdn.com/productimg/381/533/15824638-2785250267693018.jpg",
+            "alt_text": "Brown Leaf Print Tunic Midaxi Dress",
+            "type": "product_image",
+            "status": "good",
+            "issue": ""
+          },
+          {
+            "index": 4,
+            "src": "https://ml.thcdn.com/productimg/960/960/15824638-3245250267752079.jpg",
+            "alt_text": "Brown Leaf Print Tunic Midaxi Dress",
+            "type": "product_image",
+            "status": "good",
+            "issue": ""
+          },
+          {
+            "index": 5,
+            "src": "https://ml.thcdn.com/productimg/960/960/15824638-5235250267780222.jpg",
+            "alt_text": "Brown Leaf Print Tunic Midaxi Dress",
+            "type": "product_image",
+            "status": "good",
+            "issue": ""
+          },
+          {
+            "index": 6,
+            "src": "https://ml.thcdn.com/productimg/960/960/15824638-2785250267693018.jpg",
+            "alt_text": "Brown Leaf Print Tunic Midaxi Dress",
+            "type": "product_image",
+            "status": "good",
+            "issue": ""
+          },
+          {
+            "index": 7,
+            "src": "https://ml.thcdn.com/productimg/70/70/15824638-3245250267752079.jpg",
+            "alt_text": "",
+            "type": "product_image",
+            "status": "empty",
+            "issue": "Empty alt text"
+          },
+          {
+            "index": 8,
+            "src": "https://ml.thcdn.com/productimg/70/70/15824638-5235250267780222.jpg",
+            "alt_text": "",
+            "type": "product_image",
+            "status": "empty",
+            "issue": "Empty alt text"
+          },
+          {
+            "index": 9,
+            "src": "https://ml.thcdn.com/productimg/70/70/15824638-2785250267693018.jpg",
+            "alt_text": "",
+            "type": "product_image",
+            "status": "empty",
+            "issue": "Empty alt text"
+          },
+          {
+            "index": 10,
+            "src": "https://ml.thcdn.com/productimg/401/456/15824647-2035241430938921.jpg",
+            "alt_text": "Green Paisley Print Tunic Midaxi Dress",
+            "type": "product_image",
+            "status": "good",
+            "issue": ""
+          },
+          {
+            "index": 11,
+            "src": "https://ml.thcdn.com/productimg/401/456/15708955-1975236302062700.jpg",
+            "alt_text": "Beige Zebra Tunic Midaxi Dress",
+            "type": "product_image",
+            "status": "good",
+            "issue": ""
+          },
+          {
+            "index": 12,
+            "src": "https://ml.thcdn.com/productimg/401/456/15708981-6555226641162466.jpg",
+            "alt_text": "White Monochrome Leaf Print Tunic Midaxi Dress",
+            "type": "product_image",
+            "status": "good",
+            "issue": ""
+          },
+          {
+            "index": 13,
+            "src": "https://ml.thcdn.com/productimg/401/456/15708964-1395226881081490.jpg",
+            "alt_text": "Black Monochrome Leaf Print Tunic Midaxi Dress",
+            "type": "product_image",
+            "status": "good",
+            "issue": ""
+          },
+          {
+            "index": 14,
+            "src": "https://ml.thcdn.com/productimg/401/456/15674518-1425226640191234.jpg",
+            "alt_text": "Brown Leopard Print Tunic Midaxi Dress",
+            "type": "product_image",
+            "status": "good",
+            "issue": ""
+          },
+          {
+            "index": 15,
+            "src": "https://ml.thcdn.com/productimg/401/456/15785964-9205232839406168.jpg",
+            "alt_text": "Taupe Stripe Raglan Midi Shirt Dress",
+            "type": "product_image",
+            "status": "good",
+            "issue": ""
+          },
+          {
+            "index": 16,
+            "src": "https://ml.thcdn.com/productimg/401/456/15628653-1425228950238862.jpg",
+            "alt_text": "Et Vous Blue Palm Tie Waist Midaxi Dress",
+            "type": "product_image",
+            "status": "good",
+            "issue": ""
+          },
+          {
+            "index": 17,
+            "src": "https://ml.thcdn.com/productimg/401/456/14710734-1075086916369784.jpg",
+            "alt_text": "Brown Cotton Leggings",
+            "type": "product_image",
+            "status": "good",
+            "issue": ""
+          },
+          {
+            "index": 18,
+            "src": "https://ml.thcdn.com/productimg/401/456/15785952-2115247349119894.jpg",
+            "alt_text": "Green Floral Raglan Midi Shirt Dress",
+            "type": "product_image",
+            "status": "good",
+            "issue": ""
+          }
+        ],
+        "issues": [],
+        "compliance_score": 100.0
+      },
+      "widgets": {},
+      "structure": {
+        "total_elements": 2844,
+        "images": 18,
+        "buttons": 41,
+        "forms": 2,
+        "inputs": 3,
+        "selects": 0,
+        "links": 791
+      },
+      "analysis_timestamp": "2025-06-24 15:43:58",
+      "status": "success"
+    },
+    "https://www.matalan.co.uk/home/green-cardigan/15824645.html": {
+      "url": "https://www.matalan.co.uk/home/green-cardigan/15824645.html",
+      "product_info": {
+        "title": "Brown Leaf Print Tunic Midaxi Dress",
+        "category": "home",
+        "price": "",
+        "product_id": "15824645"
+      },
+      "image_analysis": {
+        "total_images": 18,
+        "with_alt": 15,
+        "missing_alt": 0,
+        "empty_alt": 3,
+        "good_alt": 15,
+        "long_alt": 0,
+        "images_detail": [
+          {
+            "index": 1,
+            "src": "https://ml.thcdn.com/productimg/381/533/15824638-3245250267752079.jpg",
+            "alt_text": "Brown Leaf Print Tunic Midaxi Dress",
+            "type": "product_image",
+            "status": "good",
+            "issue": ""
+          },
+          {
+            "index": 2,
+            "src": "https://ml.thcdn.com/productimg/381/533/15824638-5235250267780222.jpg",
+            "alt_text": "Brown Leaf Print Tunic Midaxi Dress",
+            "type": "product_image",
+            "status": "good",
+            "issue": ""
+          },
+          {
+            "index": 3,
+            "src": "https://ml.thcdn.com/productimg/381/533/15824638-2785250267693018.jpg",
+            "alt_text": "Brown Leaf Print Tunic Midaxi Dress",
+            "type": "product_image",
+            "status": "good",
+            "issue": ""
+          },
+          {
+            "index": 4,
+            "src": "https://ml.thcdn.com/productimg/960/960/15824638-3245250267752079.jpg",
+            "alt_text": "Brown Leaf Print Tunic Midaxi Dress",
+            "type": "product_image",
+            "status": "good",
+            "issue": ""
+          },
+          {
+            "index": 5,
+            "src": "https://ml.thcdn.com/productimg/960/960/15824638-5235250267780222.jpg",
+            "alt_text": "Brown Leaf Print Tunic Midaxi Dress",
+            "type": "product_image",
+            "status": "good",
+            "issue": ""
+          },
+          {
+            "index": 6,
+            "src": "https://ml.thcdn.com/productimg/960/960/15824638-2785250267693018.jpg",
+            "alt_text": "Brown Leaf Print Tunic Midaxi Dress",
+            "type": "product_image",
+            "status": "good",
+            "issue": ""
+          },
+          {
+            "index": 7,
+            "src": "https://ml.thcdn.com/productimg/70/70/15824638-3245250267752079.jpg",
+            "alt_text": "",
+            "type": "product_image",
+            "status": "empty",
+            "issue": "Empty alt text"
+          },
+          {
+            "index": 8,
+            "src": "https://ml.thcdn.com/productimg/70/70/15824638-5235250267780222.jpg",
+            "alt_text": "",
+            "type": "product_image",
+            "status": "empty",
+            "issue": "Empty alt text"
+          },
+          {
+            "index": 9,
+            "src": "https://ml.thcdn.com/productimg/70/70/15824638-2785250267693018.jpg",
+            "alt_text": "",
+            "type": "product_image",
+            "status": "empty",
+            "issue": "Empty alt text"
+          },
+          {
+            "index": 10,
+            "src": "https://ml.thcdn.com/productimg/401/456/15824647-2035241430938921.jpg",
+            "alt_text": "Green Paisley Print Tunic Midaxi Dress",
+            "type": "product_image",
+            "status": "good",
+            "issue": ""
+          },
+          {
+            "index": 11,
+            "src": "https://ml.thcdn.com/productimg/401/456/15708955-1975236302062700.jpg",
+            "alt_text": "Beige Zebra Tunic Midaxi Dress",
+            "type": "product_image",
+            "status": "good",
+            "issue": ""
+          },
+          {
+            "index": 12,
+            "src": "https://ml.thcdn.com/productimg/401/456/15708981-6555226641162466.jpg",
+            "alt_text": "White Monochrome Leaf Print Tunic Midaxi Dress",
+            "type": "product_image",
+            "status": "good",
+            "issue": ""
+          },
+          {
+            "index": 13,
+            "src": "https://ml.thcdn.com/productimg/401/456/15708964-1395226881081490.jpg",
+            "alt_text": "Black Monochrome Leaf Print Tunic Midaxi Dress",
+            "type": "product_image",
+            "status": "good",
+            "issue": ""
+          },
+          {
+            "index": 14,
+            "src": "https://ml.thcdn.com/productimg/401/456/15674518-1425226640191234.jpg",
+            "alt_text": "Brown Leopard Print Tunic Midaxi Dress",
+            "type": "product_image",
+            "status": "good",
+            "issue": ""
+          },
+          {
+            "index": 15,
+            "src": "https://ml.thcdn.com/productimg/401/456/15785964-9205232839406168.jpg",
+            "alt_text": "Taupe Stripe Raglan Midi Shirt Dress",
+            "type": "product_image",
+            "status": "good",
+            "issue": ""
+          },
+          {
+            "index": 16,
+            "src": "https://ml.thcdn.com/productimg/401/456/15628653-1425228950238862.jpg",
+            "alt_text": "Et Vous Blue Palm Tie Waist Midaxi Dress",
+            "type": "product_image",
+            "status": "good",
+            "issue": ""
+          },
+          {
+            "index": 17,
+            "src": "https://ml.thcdn.com/productimg/401/456/14710734-1075086916369784.jpg",
+            "alt_text": "Brown Cotton Leggings",
+            "type": "product_image",
+            "status": "good",
+            "issue": ""
+          },
+          {
+            "index": 18,
+            "src": "https://ml.thcdn.com/productimg/401/456/15785952-2115247349119894.jpg",
+            "alt_text": "Green Floral Raglan Midi Shirt Dress",
+            "type": "product_image",
+            "status": "good",
+            "issue": ""
+          }
+        ],
+        "issues": [],
+        "compliance_score": 100.0
+      },
+      "widgets": {},
+      "structure": {
+        "total_elements": 2844,
+        "images": 18,
+        "buttons": 41,
+        "forms": 2,
+        "inputs": 3,
+        "selects": 0,
+        "links": 791
+      },
+      "analysis_timestamp": "2025-06-24 15:44:00",
+      "status": "success"
+    },
+    "https://www.matalan.co.uk/home/grey-hoodie/15824642.html": {
+      "url": "https://www.matalan.co.uk/home/grey-hoodie/15824642.html",
+      "product_info": {
+        "title": "Brown Leaf Print Tunic Midaxi Dress",
+        "category": "home",
+        "price": "",
+        "product_id": "15824642"
+      },
+      "image_analysis": {
+        "total_images": 18,
+        "with_alt": 15,
+        "missing_alt": 0,
+        "empty_alt": 3,
+        "good_alt": 15,
+        "long_alt": 0,
+        "images_detail": [
+          {
+            "index": 1,
+            "src": "https://ml.thcdn.com/productimg/381/533/15824638-3245250267752079.jpg",
+            "alt_text": "Brown Leaf Print Tunic Midaxi Dress",
+            "type": "product_image",
+            "status": "good",
+            "issue": ""
+          },
+          {
+            "index": 2,
+            "src": "https://ml.thcdn.com/productimg/381/533/15824638-5235250267780222.jpg",
+            "alt_text": "Brown Leaf Print Tunic Midaxi Dress",
+            "type": "product_image",
+            "status": "good",
+            "issue": ""
+          },
+          {
+            "index": 3,
+            "src": "https://ml.thcdn.com/productimg/381/533/15824638-2785250267693018.jpg",
+            "alt_text": "Brown Leaf Print Tunic Midaxi Dress",
+            "type": "product_image",
+            "status": "good",
+            "issue": ""
+          },
+          {
+            "index": 4,
+            "src": "https://ml.thcdn.com/productimg/960/960/15824638-3245250267752079.jpg",
+            "alt_text": "Brown Leaf Print Tunic Midaxi Dress",
+            "type": "product_image",
+            "status": "good",
+            "issue": ""
+          },
+          {
+            "index": 5,
+            "src": "https://ml.thcdn.com/productimg/960/960/15824638-5235250267780222.jpg",
+            "alt_text": "Brown Leaf Print Tunic Midaxi Dress",
+            "type": "product_image",
+            "status": "good",
+            "issue": ""
+          },
+          {
+            "index": 6,
+            "src": "https://ml.thcdn.com/productimg/960/960/15824638-2785250267693018.jpg",
+            "alt_text": "Brown Leaf Print Tunic Midaxi Dress",
+            "type": "product_image",
+            "status": "good",
+            "issue": ""
+          },
+          {
+            "index": 7,
+            "src": "https://ml.thcdn.com/productimg/70/70/15824638-3245250267752079.jpg",
+            "alt_text": "",
+            "type": "product_image",
+            "status": "empty",
+            "issue": "Empty alt text"
+          },
+          {
+            "index": 8,
+            "src": "https://ml.thcdn.com/productimg/70/70/15824638-5235250267780222.jpg",
+            "alt_text": "",
+            "type": "product_image",
+            "status": "empty",
+            "issue": "Empty alt text"
+          },
+          {
+            "index": 9,
+            "src": "https://ml.thcdn.com/productimg/70/70/15824638-2785250267693018.jpg",
+            "alt_text": "",
+            "type": "product_image",
+            "status": "empty",
+            "issue": "Empty alt text"
+          },
+          {
+            "index": 10,
+            "src": "https://ml.thcdn.com/productimg/401/456/15824647-2035241430938921.jpg",
+            "alt_text": "Green Paisley Print Tunic Midaxi Dress",
+            "type": "product_image",
+            "status": "good",
+            "issue": ""
+          },
+          {
+            "index": 11,
+            "src": "https://ml.thcdn.com/productimg/401/456/15708955-1975236302062700.jpg",
+            "alt_text": "Beige Zebra Tunic Midaxi Dress",
+            "type": "product_image",
+            "status": "good",
+            "issue": ""
+          },
+          {
+            "index": 12,
+            "src": "https://ml.thcdn.com/productimg/401/456/15708981-6555226641162466.jpg",
+            "alt_text": "White Monochrome Leaf Print Tunic Midaxi Dress",
+            "type": "product_image",
+            "status": "good",
+            "issue": ""
+          },
+          {
+            "index": 13,
+            "src": "https://ml.thcdn.com/productimg/401/456/15708964-1395226881081490.jpg",
+            "alt_text": "Black Monochrome Leaf Print Tunic Midaxi Dress",
+            "type": "product_image",
+            "status": "good",
+            "issue": ""
+          },
+          {
+            "index": 14,
+            "src": "https://ml.thcdn.com/productimg/401/456/15674518-1425226640191234.jpg",
+            "alt_text": "Brown Leopard Print Tunic Midaxi Dress",
+            "type": "product_image",
+            "status": "good",
+            "issue": ""
+          },
+          {
+            "index": 15,
+            "src": "https://ml.thcdn.com/productimg/401/456/15785964-9205232839406168.jpg",
+            "alt_text": "Taupe Stripe Raglan Midi Shirt Dress",
+            "type": "product_image",
+            "status": "good",
+            "issue": ""
+          },
+          {
+            "index": 16,
+            "src": "https://ml.thcdn.com/productimg/401/456/15628653-1425228950238862.jpg",
+            "alt_text": "Et Vous Blue Palm Tie Waist Midaxi Dress",
+            "type": "product_image",
+            "status": "good",
+            "issue": ""
+          },
+          {
+            "index": 17,
+            "src": "https://ml.thcdn.com/productimg/401/456/14710734-1075086916369784.jpg",
+            "alt_text": "Brown Cotton Leggings",
+            "type": "product_image",
+            "status": "good",
+            "issue": ""
+          },
+          {
+            "index": 18,
+            "src": "https://ml.thcdn.com/productimg/401/456/15785952-2115247349119894.jpg",
+            "alt_text": "Green Floral Raglan Midi Shirt Dress",
+            "type": "product_image",
+            "status": "good",
+            "issue": ""
+          }
+        ],
+        "issues": [],
+        "compliance_score": 100.0
+      },
+      "widgets": {},
+      "structure": {
+        "total_elements": 2844,
+        "images": 18,
+        "buttons": 41,
+        "forms": 2,
+        "inputs": 3,
+        "selects": 0,
+        "links": 791
+      },
+      "analysis_timestamp": "2025-06-24 15:44:05",
+      "status": "success"
+    },
+    "https://www.matalan.co.uk/clothing/black-basic-t-shirt/15824638.html": {
+      "url": "https://www.matalan.co.uk/clothing/black-basic-t-shirt/15824638.html",
+      "product_info": {
+        "title": "Brown Leaf Print Tunic Midaxi Dress",
+        "category": "clothing",
+        "price": "",
+        "product_id": "15824638"
+      },
+      "image_analysis": {
+        "total_images": 18,
+        "with_alt": 15,
+        "missing_alt": 0,
+        "empty_alt": 3,
+        "good_alt": 15,
+        "long_alt": 0,
+        "images_detail": [
+          {
+            "index": 1,
+            "src": "https://ml.thcdn.com/productimg/381/533/15824638-3245250267752079.jpg",
+            "alt_text": "Brown Leaf Print Tunic Midaxi Dress",
+            "type": "product_image",
+            "status": "good",
+            "issue": ""
+          },
+          {
+            "index": 2,
+            "src": "https://ml.thcdn.com/productimg/381/533/15824638-5235250267780222.jpg",
+            "alt_text": "Brown Leaf Print Tunic Midaxi Dress",
+            "type": "product_image",
+            "status": "good",
+            "issue": ""
+          },
+          {
+            "index": 3,
+            "src": "https://ml.thcdn.com/productimg/381/533/15824638-2785250267693018.jpg",
+            "alt_text": "Brown Leaf Print Tunic Midaxi Dress",
+            "type": "product_image",
+            "status": "good",
+            "issue": ""
+          },
+          {
+            "index": 4,
+            "src": "https://ml.thcdn.com/productimg/960/960/15824638-3245250267752079.jpg",
+            "alt_text": "Brown Leaf Print Tunic Midaxi Dress",
+            "type": "product_image",
+            "status": "good",
+            "issue": ""
+          },
+          {
+            "index": 5,
+            "src": "https://ml.thcdn.com/productimg/960/960/15824638-5235250267780222.jpg",
+            "alt_text": "Brown Leaf Print Tunic Midaxi Dress",
+            "type": "product_image",
+            "status": "good",
+            "issue": ""
+          },
+          {
+            "index": 6,
+            "src": "https://ml.thcdn.com/productimg/960/960/15824638-2785250267693018.jpg",
+            "alt_text": "Brown Leaf Print Tunic Midaxi Dress",
+            "type": "product_image",
+            "status": "good",
+            "issue": ""
+          },
+          {
+            "index": 7,
+            "src": "https://ml.thcdn.com/productimg/70/70/15824638-3245250267752079.jpg",
+            "alt_text": "",
+            "type": "product_image",
+            "status": "empty",
+            "issue": "Empty alt text"
+          },
+          {
+            "index": 8,
+            "src": "https://ml.thcdn.com/productimg/70/70/15824638-5235250267780222.jpg",
+            "alt_text": "",
+            "type": "product_image",
+            "status": "empty",
+            "issue": "Empty alt text"
+          },
+          {
+            "index": 9,
+            "src": "https://ml.thcdn.com/productimg/70/70/15824638-2785250267693018.jpg",
+            "alt_text": "",
+            "type": "product_image",
+            "status": "empty",
+            "issue": "Empty alt text"
+          },
+          {
+            "index": 10,
+            "src": "https://ml.thcdn.com/productimg/401/456/15824647-2035241430938921.jpg",
+            "alt_text": "Green Paisley Print Tunic Midaxi Dress",
+            "type": "product_image",
+            "status": "good",
+            "issue": ""
+          },
+          {
+            "index": 11,
+            "src": "https://ml.thcdn.com/productimg/401/456/15708955-1975236302062700.jpg",
+            "alt_text": "Beige Zebra Tunic Midaxi Dress",
+            "type": "product_image",
+            "status": "good",
+            "issue": ""
+          },
+          {
+            "index": 12,
+            "src": "https://ml.thcdn.com/productimg/401/456/15708981-6555226641162466.jpg",
+            "alt_text": "White Monochrome Leaf Print Tunic Midaxi Dress",
+            "type": "product_image",
+            "status": "good",
+            "issue": ""
+          },
+          {
+            "index": 13,
+            "src": "https://ml.thcdn.com/productimg/401/456/15708964-1395226881081490.jpg",
+            "alt_text": "Black Monochrome Leaf Print Tunic Midaxi Dress",
+            "type": "product_image",
+            "status": "good",
+            "issue": ""
+          },
+          {
+            "index": 14,
+            "src": "https://ml.thcdn.com/productimg/401/456/15674518-1425226640191234.jpg",
+            "alt_text": "Brown Leopard Print Tunic Midaxi Dress",
+            "type": "product_image",
+            "status": "good",
+            "issue": ""
+          },
+          {
+            "index": 15,
+            "src": "https://ml.thcdn.com/productimg/401/456/15785964-9205232839406168.jpg",
+            "alt_text": "Taupe Stripe Raglan Midi Shirt Dress",
+            "type": "product_image",
+            "status": "good",
+            "issue": ""
+          },
+          {
+            "index": 16,
+            "src": "https://ml.thcdn.com/productimg/401/456/15628653-1425228950238862.jpg",
+            "alt_text": "Et Vous Blue Palm Tie Waist Midaxi Dress",
+            "type": "product_image",
+            "status": "good",
+            "issue": ""
+          },
+          {
+            "index": 17,
+            "src": "https://ml.thcdn.com/productimg/401/456/14710734-1075086916369784.jpg",
+            "alt_text": "Brown Cotton Leggings",
+            "type": "product_image",
+            "status": "good",
+            "issue": ""
+          },
+          {
+            "index": 18,
+            "src": "https://ml.thcdn.com/productimg/401/456/15785952-2115247349119894.jpg",
+            "alt_text": "Green Floral Raglan Midi Shirt Dress",
+            "type": "product_image",
+            "status": "good",
+            "issue": ""
+          }
+        ],
+        "issues": [],
+        "compliance_score": 100.0
+      },
+      "widgets": {},
+      "structure": {
+        "total_elements": 2844,
+        "images": 18,
+        "buttons": 41,
+        "forms": 2,
+        "inputs": 3,
+        "selects": 0,
+        "links": 791
+      },
+      "analysis_timestamp": "2025-06-24 15:44:07",
+      "status": "success"
+    },
+    "https://www.matalan.co.uk/clothing/red-summer-dress/15824641.html": {
+      "url": "https://www.matalan.co.uk/clothing/red-summer-dress/15824641.html",
+      "product_info": {
+        "title": "Brown Leaf Print Tunic Midaxi Dress",
+        "category": "clothing",
+        "price": "",
+        "product_id": "15824641"
+      },
+      "image_analysis": {
+        "total_images": 18,
+        "with_alt": 15,
+        "missing_alt": 0,
+        "empty_alt": 3,
+        "good_alt": 15,
+        "long_alt": 0,
+        "images_detail": [
+          {
+            "index": 1,
+            "src": "https://ml.thcdn.com/productimg/381/533/15824638-3245250267752079.jpg",
+            "alt_text": "Brown Leaf Print Tunic Midaxi Dress",
+            "type": "product_image",
+            "status": "good",
+            "issue": ""
+          },
+          {
+            "index": 2,
+            "src": "https://ml.thcdn.com/productimg/381/533/15824638-5235250267780222.jpg",
+            "alt_text": "Brown Leaf Print Tunic Midaxi Dress",
+            "type": "product_image",
+            "status": "good",
+            "issue": ""
+          },
+          {
+            "index": 3,
+            "src": "https://ml.thcdn.com/productimg/381/533/15824638-2785250267693018.jpg",
+            "alt_text": "Brown Leaf Print Tunic Midaxi Dress",
+            "type": "product_image",
+            "status": "good",
+            "issue": ""
+          },
+          {
+            "index": 4,
+            "src": "https://ml.thcdn.com/productimg/960/960/15824638-3245250267752079.jpg",
+            "alt_text": "Brown Leaf Print Tunic Midaxi Dress",
+            "type": "product_image",
+            "status": "good",
+            "issue": ""
+          },
+          {
+            "index": 5,
+            "src": "https://ml.thcdn.com/productimg/960/960/15824638-5235250267780222.jpg",
+            "alt_text": "Brown Leaf Print Tunic Midaxi Dress",
+            "type": "product_image",
+            "status": "good",
+            "issue": ""
+          },
+          {
+            "index": 6,
+            "src": "https://ml.thcdn.com/productimg/960/960/15824638-2785250267693018.jpg",
+            "alt_text": "Brown Leaf Print Tunic Midaxi Dress",
+            "type": "product_image",
+            "status": "good",
+            "issue": ""
+          },
+          {
+            "index": 7,
+            "src": "https://ml.thcdn.com/productimg/70/70/15824638-3245250267752079.jpg",
+            "alt_text": "",
+            "type": "product_image",
+            "status": "empty",
+            "issue": "Empty alt text"
+          },
+          {
+            "index": 8,
+            "src": "https://ml.thcdn.com/productimg/70/70/15824638-5235250267780222.jpg",
+            "alt_text": "",
+            "type": "product_image",
+            "status": "empty",
+            "issue": "Empty alt text"
+          },
+          {
+            "index": 9,
+            "src": "https://ml.thcdn.com/productimg/70/70/15824638-2785250267693018.jpg",
+            "alt_text": "",
+            "type": "product_image",
+            "status": "empty",
+            "issue": "Empty alt text"
+          },
+          {
+            "index": 10,
+            "src": "https://ml.thcdn.com/productimg/401/456/15824647-2035241430938921.jpg",
+            "alt_text": "Green Paisley Print Tunic Midaxi Dress",
+            "type": "product_image",
+            "status": "good",
+            "issue": ""
+          },
+          {
+            "index": 11,
+            "src": "https://ml.thcdn.com/productimg/401/456/15708955-1975236302062700.jpg",
+            "alt_text": "Beige Zebra Tunic Midaxi Dress",
+            "type": "product_image",
+            "status": "good",
+            "issue": ""
+          },
+          {
+            "index": 12,
+            "src": "https://ml.thcdn.com/productimg/401/456/15708981-6555226641162466.jpg",
+            "alt_text": "White Monochrome Leaf Print Tunic Midaxi Dress",
+            "type": "product_image",
+            "status": "good",
+            "issue": ""
+          },
+          {
+            "index": 13,
+            "src": "https://ml.thcdn.com/productimg/401/456/15708964-1395226881081490.jpg",
+            "alt_text": "Black Monochrome Leaf Print Tunic Midaxi Dress",
+            "type": "product_image",
+            "status": "good",
+            "issue": ""
+          },
+          {
+            "index": 14,
+            "src": "https://ml.thcdn.com/productimg/401/456/15674518-1425226640191234.jpg",
+            "alt_text": "Brown Leopard Print Tunic Midaxi Dress",
+            "type": "product_image",
+            "status": "good",
+            "issue": ""
+          },
+          {
+            "index": 15,
+            "src": "https://ml.thcdn.com/productimg/401/456/15785964-9205232839406168.jpg",
+            "alt_text": "Taupe Stripe Raglan Midi Shirt Dress",
+            "type": "product_image",
+            "status": "good",
+            "issue": ""
+          },
+          {
+            "index": 16,
+            "src": "https://ml.thcdn.com/productimg/401/456/15628653-1425228950238862.jpg",
+            "alt_text": "Et Vous Blue Palm Tie Waist Midaxi Dress",
+            "type": "product_image",
+            "status": "good",
+            "issue": ""
+          },
+          {
+            "index": 17,
+            "src": "https://ml.thcdn.com/productimg/401/456/14710734-1075086916369784.jpg",
+            "alt_text": "Brown Cotton Leggings",
+            "type": "product_image",
+            "status": "good",
+            "issue": ""
+          },
+          {
+            "index": 18,
+            "src": "https://ml.thcdn.com/productimg/401/456/15785952-2115247349119894.jpg",
+            "alt_text": "Green Floral Raglan Midi Shirt Dress",
+            "type": "product_image",
+            "status": "good",
+            "issue": ""
+          }
+        ],
+        "issues": [],
+        "compliance_score": 100.0
+      },
+      "widgets": {},
+      "structure": {
+        "total_elements": 2844,
+        "images": 18,
+        "buttons": 41,
+        "forms": 2,
+        "inputs": 3,
+        "selects": 0,
+        "links": 791
+      },
+      "analysis_timestamp": "2025-06-24 15:44:11",
+      "status": "success"
+    },
+    "https://www.matalan.co.uk/clothing/brown-leaf-print-tunic-midaxi-dress/15824638.html": {
+      "url": "https://www.matalan.co.uk/clothing/brown-leaf-print-tunic-midaxi-dress/15824638.html",
+      "product_info": {
+        "title": "Brown Leaf Print Tunic Midaxi Dress",
+        "category": "clothing",
+        "price": "",
+        "product_id": "15824638"
+      },
+      "image_analysis": {
+        "total_images": 18,
+        "with_alt": 15,
+        "missing_alt": 0,
+        "empty_alt": 3,
+        "good_alt": 15,
+        "long_alt": 0,
+        "images_detail": [
+          {
+            "index": 1,
+            "src": "https://ml.thcdn.com/productimg/381/533/15824638-3245250267752079.jpg",
+            "alt_text": "Brown Leaf Print Tunic Midaxi Dress",
+            "type": "product_image",
+            "status": "good",
+            "issue": ""
+          },
+          {
+            "index": 2,
+            "src": "https://ml.thcdn.com/productimg/381/533/15824638-5235250267780222.jpg",
+            "alt_text": "Brown Leaf Print Tunic Midaxi Dress",
+            "type": "product_image",
+            "status": "good",
+            "issue": ""
+          },
+          {
+            "index": 3,
+            "src": "https://ml.thcdn.com/productimg/381/533/15824638-2785250267693018.jpg",
+            "alt_text": "Brown Leaf Print Tunic Midaxi Dress",
+            "type": "product_image",
+            "status": "good",
+            "issue": ""
+          },
+          {
+            "index": 4,
+            "src": "https://ml.thcdn.com/productimg/960/960/15824638-3245250267752079.jpg",
+            "alt_text": "Brown Leaf Print Tunic Midaxi Dress",
+            "type": "product_image",
+            "status": "good",
+            "issue": ""
+          },
+          {
+            "index": 5,
+            "src": "https://ml.thcdn.com/productimg/960/960/15824638-5235250267780222.jpg",
+            "alt_text": "Brown Leaf Print Tunic Midaxi Dress",
+            "type": "product_image",
+            "status": "good",
+            "issue": ""
+          },
+          {
+            "index": 6,
+            "src": "https://ml.thcdn.com/productimg/960/960/15824638-2785250267693018.jpg",
+            "alt_text": "Brown Leaf Print Tunic Midaxi Dress",
+            "type": "product_image",
+            "status": "good",
+            "issue": ""
+          },
+          {
+            "index": 7,
+            "src": "https://ml.thcdn.com/productimg/70/70/15824638-3245250267752079.jpg",
+            "alt_text": "",
+            "type": "product_image",
+            "status": "empty",
+            "issue": "Empty alt text"
+          },
+          {
+            "index": 8,
+            "src": "https://ml.thcdn.com/productimg/70/70/15824638-5235250267780222.jpg",
+            "alt_text": "",
+            "type": "product_image",
+            "status": "empty",
+            "issue": "Empty alt text"
+          },
+          {
+            "index": 9,
+            "src": "https://ml.thcdn.com/productimg/70/70/15824638-2785250267693018.jpg",
+            "alt_text": "",
+            "type": "product_image",
+            "status": "empty",
+            "issue": "Empty alt text"
+          },
+          {
+            "index": 10,
+            "src": "https://ml.thcdn.com/productimg/401/456/15824647-2035241430938921.jpg",
+            "alt_text": "Green Paisley Print Tunic Midaxi Dress",
+            "type": "product_image",
+            "status": "good",
+            "issue": ""
+          },
+          {
+            "index": 11,
+            "src": "https://ml.thcdn.com/productimg/401/456/15708955-1975236302062700.jpg",
+            "alt_text": "Beige Zebra Tunic Midaxi Dress",
+            "type": "product_image",
+            "status": "good",
+            "issue": ""
+          },
+          {
+            "index": 12,
+            "src": "https://ml.thcdn.com/productimg/401/456/15708981-6555226641162466.jpg",
+            "alt_text": "White Monochrome Leaf Print Tunic Midaxi Dress",
+            "type": "product_image",
+            "status": "good",
+            "issue": ""
+          },
+          {
+            "index": 13,
+            "src": "https://ml.thcdn.com/productimg/401/456/15708964-1395226881081490.jpg",
+            "alt_text": "Black Monochrome Leaf Print Tunic Midaxi Dress",
+            "type": "product_image",
+            "status": "good",
+            "issue": ""
+          },
+          {
+            "index": 14,
+            "src": "https://ml.thcdn.com/productimg/401/456/15674518-1425226640191234.jpg",
+            "alt_text": "Brown Leopard Print Tunic Midaxi Dress",
+            "type": "product_image",
+            "status": "good",
+            "issue": ""
+          },
+          {
+            "index": 15,
+            "src": "https://ml.thcdn.com/productimg/401/456/15785964-9205232839406168.jpg",
+            "alt_text": "Taupe Stripe Raglan Midi Shirt Dress",
+            "type": "product_image",
+            "status": "good",
+            "issue": ""
+          },
+          {
+            "index": 16,
+            "src": "https://ml.thcdn.com/productimg/401/456/15628653-1425228950238862.jpg",
+            "alt_text": "Et Vous Blue Palm Tie Waist Midaxi Dress",
+            "type": "product_image",
+            "status": "good",
+            "issue": ""
+          },
+          {
+            "index": 17,
+            "src": "https://ml.thcdn.com/productimg/401/456/14710734-1075086916369784.jpg",
+            "alt_text": "Brown Cotton Leggings",
+            "type": "product_image",
+            "status": "good",
+            "issue": ""
+          },
+          {
+            "index": 18,
+            "src": "https://ml.thcdn.com/productimg/401/456/15785952-2115247349119894.jpg",
+            "alt_text": "Green Floral Raglan Midi Shirt Dress",
+            "type": "product_image",
+            "status": "good",
+            "issue": ""
+          }
+        ],
+        "issues": [],
+        "compliance_score": 100.0
+      },
+      "widgets": {},
+      "structure": {
+        "total_elements": 2844,
+        "images": 18,
+        "buttons": 41,
+        "forms": 2,
+        "inputs": 3,
+        "selects": 0,
+        "links": 791
+      },
+      "analysis_timestamp": "2025-06-24 15:44:13",
+      "status": "success"
+    }
+  },
+  "analysis_timestamp": "2025-06-24 15:44:13"
+}

@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matalan Page Analysis Dashboard - Enhanced</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+        
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        
+        .header p {
+            font-size: 1.1em;
+            opacity: 0.9;
+        }
+        
+        .content {
+            padding: 30px;
+        }
+        
+        .summary-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-bottom: 40px;
+        }
+        
+        .summary-card {
+            background: #f8f9fa;
+            border-radius: 10px;
+            padding: 25px;
+            text-align: center;
+            border-left: 5px solid #007bff;
+            transition: transform 0.3s ease;
+        }
+        
+        .summary-card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .summary-card.success {
+            border-left-color: #28a745;
+        }
+        
+        .summary-card.warning {
+            border-left-color: #ffc107;
+        }
+        
+        .summary-card.danger {
+            border-left-color: #dc3545;
+        }
+        
+        .summary-card h3 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            color: #2c3e50;
+        }
+        
+        .summary-card p {
+            color: #6c757d;
+            font-size: 1.1em;
+        }
+        
+        .section {
+            margin-bottom: 40px;
+        }
+        
+        .section-title {
+            font-size: 1.8em;
+            color: #2c3e50;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 3px solid #007bff;
+        }
+        
+        .table-container {
+            overflow-x: auto;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background: white;
+        }
+        
+        th {
+            background: #007bff;
+            color: white;
+            padding: 15px;
+            text-align: left;
+            font-weight: 600;
+        }
+        
+        td {
+            padding: 12px 15px;
+            border-bottom: 1px solid #dee2e6;
+        }
+        
+        tr:nth-child(even) {
+            background: #f8f9fa;
+        }
+        
+        tr:hover {
+            background: #e3f2fd;
+        }
+        
+        .status-present {
+            color: #28a745;
+            font-weight: bold;
+        }
+        
+        .status-missing {
+            color: #dc3545;
+            font-weight: bold;
+        }
+        
+        .status-warning {
+            color: #ffc107;
+            font-weight: bold;
+        }
+        
+        .widget-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        
+        .widget-card {
+            background: #f8f9fa;
+            border-radius: 10px;
+            padding: 25px;
+            border: 1px solid #dee2e6;
+        }
+        
+        .widget-card h4 {
+            color: #007bff;
+            margin-bottom: 15px;
+            font-size: 1.3em;
+        }
+        
+        .widget-info {
+            margin-bottom: 10px;
+        }
+        
+        .widget-info strong {
+            color: #2c3e50;
+        }
+        
+        .footer {
+            background: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+        
+        .progress-bar {
+            width: 100%;
+            height: 20px;
+            background: #e9ecef;
+            border-radius: 10px;
+            overflow: hidden;
+            margin: 10px 0;
+        }
+        
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #28a745, #20c997);
+            transition: width 0.3s ease;
+        }
+        
+        .url-info {
+            background: #e3f2fd;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            border-left: 4px solid #007bff;
+        }
+        
+        .timestamp {
+            color: #6c757d;
+            font-size: 0.9em;
+            text-align: center;
+            margin-top: 20px;
+        }
+        
+        .method-list {
+            margin-left: 15px;
+            font-size: 0.9em;
+            color: #6c757d;
+        }
+        
+        .selector-code {
+            margin-left: 30px;
+            font-size: 0.8em;
+            color: #6c757d;
+            font-family: 'Courier New', monospace;
+            background: #f8f9fa;
+            padding: 2px 4px;
+            border-radius: 3px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🔍 Matalan Page Analysis Dashboard</h1>
+            <p>Enhanced Accessibility & Widget Analysis Report</p>
+        </div>
+        
+        <div class="content">
+            <div class="url-info">
+                <strong>Analyzed URL:</strong> https://www.matalan.co.uk/clothing/brown-leaf-print-tunic-midaxi-dress/15824638.html<br>
+                <strong>Page Title:</strong> Brown Leaf Print Tunic Midaxi Dress - Matalan
+            </div>
+            
+            <div class="summary-grid">
+                <div class="summary-card success">
+                    <h3>21</h3>
+                    <p>Total Images</p>
+                </div>
+                <div class="summary-card success">
+                    <h3>18</h3>
+                    <p>Images with Alt Text</p>
+                </div>
+                <div class="summary-card danger">
+                    <h3>3</h3>
+                    <p>Missing Alt Text</p>
+                </div>
+                <div class="summary-card success">
+                    <h3>85.7%</h3>
+                    <p>Accessibility Score</p>
+                </div>
+            </div>
+            
+            <div class="section">
+                <h2 class="section-title">📊 Accessibility Overview</h2>
+                <div style="margin-bottom: 20px;">
+                    <strong>Alt Text Coverage:</strong>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 85.7%"></div>
+                    </div>
+                    <small>18 out of 21 images have alt text (85.7%)</small>
+                </div>
+            </div>
+            
+            <div class="section">
+                <h2 class="section-title">🔧 Widget Detection Methods</h2>
+                <div style="background: #e8f4fd; border: 1px solid #bee5eb; border-radius: 8px; padding: 20px; margin-bottom: 30px;">
+                    <h4 style="color: #0c5460; margin-bottom: 15px;">🎯 Detection Strategies Used:</h4>
+                    <ul style="color: #0c5460; margin-left: 20px;">
+                        <li><strong>CSS Selectors:</strong> [data-testid*="price"], .price, [class*="price"], span[class*="Price"]</li>
+                        <li><strong>XPath Queries:</strong> //*[contains(text(), 'You may also like')]/ancestor::section</li>
+                        <li><strong>Element Traversal:</strong> Finding parent containers and extracting child data</li>
+                        <li><strong>Attribute Analysis:</strong> Checking titles, text content, and data attributes</li>
+                        <li><strong>Fallback Strategies:</strong> Multiple selector attempts with error handling</li>
+                        <li><strong>Content Validation:</strong> Text pattern matching for prices (£, $) and size constraints</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="section">
+                <h2 class="section-title">🧩 Widget Analysis Results</h2>
+                <div class="widget-grid">
+                    <div class="widget-card">
+                        <h4>Product Information</h4>
+                        <div class="widget-info"><strong>Product Name:</strong> Brown Leaf Print Tunic Midaxi Dress</div>
+                        <div class="widget-info"><strong>Price:</strong> £22.00, £15.40, Save: £6.60</div>
+                        <div class="widget-info"><strong>Available Sizes:</strong> Not found</div>
+                        <div class="widget-info"><strong>Detection Methods:</strong></div>
+                        <div class="method-list">✅ Product title found using &lt;h1&gt; tag</div>
+                        <div class="method-list">✅ Price found using selector: [class*="price"]</div>
+                        <div class="method-list">❌ Size options not found with any selector</div>
+                        <div class="widget-info"><strong>Selectors Tried:</strong></div>
+                        <div style="margin-left: 15px; font-size: 0.9em;"><strong>Price Selectors:</strong></div>
+                        <div class="selector-code">[data-testid*="price"]</div>
+                        <div class="selector-code">.price</div>
+                        <div class="selector-code">[class*="price"]</div>
+                        <div class="selector-code">span[class*="Price"]</div>
+                        <div style="margin-left: 15px; font-size: 0.9em;"><strong>Size Selectors:</strong></div>
+                        <div class="selector-code">[data-testid*="size"]</div>
+                        <div class="selector-code">button[class*="size"]</div>
+                        <div class="selector-code">.size-option</div>
+                        <div class="selector-code">select option</div>
+                    </div>
+                    
+                    <div class="widget-card">
+                        <h4>Recommendations</h4>
+                        <div class="widget-info"><strong>Section Found:</strong> Yes</div>
+                        <div class="widget-info"><strong>Products Count:</strong> 1</div>
+                        <div class="widget-info"><strong>Sample Products:</strong> Green Paisley Print Tunic Midaxi Dress</div>
+                        <div class="widget-info"><strong>Detection Method:</strong></div>
+                        <div class="method-list">✅ Found using XPath: //*[contains(text(), 'You may also like')]/ancestor::section</div>
+                        <div class="method-list">✅ Product names extracted from image alt text</div>
+                    </div>
+                    
+                    <div class="widget-card">
+                        <h4>Page Structure</h4>
+                        <div class="widget-info"><strong>Total Buttons:</strong> 57</div>
+                        <div class="widget-info"><strong>Total Links:</strong> 796</div>
+                        <div class="widget-info"><strong>Total Headings:</strong> 28</div>
+                        <div class="widget-info"><strong>Total Images:</strong> 21</div>
+                        <div class="widget-info"><strong>Analysis Method:</strong></div>
+                        <div class="method-list">✅ Element counting using tag selectors</div>
+                        <div class="method-list">✅ Comprehensive DOM traversal</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="section">
+                <h2 class="section-title">📊 Widget Detection Summary</h2>
+                <div class="summary-grid">
+                    <div class="summary-card success">
+                        <h3>3</h3>
+                        <p>Widget Types Analyzed</p>
+                    </div>
+                    <div class="summary-card success">
+                        <h3>3</h3>
+                        <p>Successfully Detected</p>
+                    </div>
+                    <div class="summary-card warning">
+                        <h3>8</h3>
+                        <p>CSS Selectors Used</p>
+                    </div>
+                    <div class="summary-card success">
+                        <h3>1</h3>
+                        <p>XPath Query Used</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="section">
+                <h2 class="section-title">🖼️ Image Analysis Details</h2>
+                <div class="table-container">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>Image Source</th>
+                                <th>Alt Text</th>
+                                <th>Length</th>
+                                <th>Status</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td style="max-width: 300px; word-break: break-all;">https://ml.thcdn.com/productimg/381/533/15824638-3245250267752079.jpg</td>
+                                <td>Brown Leaf Print Tunic Midaxi Dress</td>
+                                <td>35</td>
+                                <td class="status-present">✅ PRESENT</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td style="max-width: 300px; word-break: break-all;">https://ml.thcdn.com/productimg/381/533/15824638-5235250267780222.jpg</td>
+                                <td>Brown Leaf Print Tunic Midaxi Dress</td>
+                                <td>35</td>
+                                <td class="status-present">✅ PRESENT</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td style="max-width: 300px; word-break: break-all;">https://ml.thcdn.com/productimg/381/533/15824638-2785250267693018.jpg</td>
+                                <td>Brown Leaf Print Tunic Midaxi Dress</td>
+                                <td>35</td>
+                                <td class="status-present">✅ PRESENT</td>
+                            </tr>
+                            <tr>
+                                <td>7</td>
+                                <td style="max-width: 300px; word-break: break-all;">https://ml.thcdn.com/productimg/70/70/15824638-3245250267752079.jpg</td>
+                                <td><em>No alt text</em></td>
+                                <td>0</td>
+                                <td class="status-missing">❌ MISSING / EMPTY</td>
+                            </tr>
+                            <tr>
+                                <td>8</td>
+                                <td style="max-width: 300px; word-break: break-all;">https://ml.thcdn.com/productimg/70/70/15824638-5235250267780222.jpg</td>
+                                <td><em>No alt text</em></td>
+                                <td>0</td>
+                                <td class="status-missing">❌ MISSING / EMPTY</td>
+                            </tr>
+                            <tr>
+                                <td>9</td>
+                                <td style="max-width: 300px; word-break: break-all;">https://ml.thcdn.com/productimg/70/70/15824638-2785250267693018.jpg</td>
+                                <td><em>No alt text</em></td>
+                                <td>0</td>
+                                <td class="status-missing">❌ MISSING / EMPTY</td>
+                            </tr>
+                            <tr>
+                                <td>10</td>
+                                <td style="max-width: 300px; word-break: break-all;">https://ml.thcdn.com/productimg/401/456/15824647-2035241430938921.jpg</td>
+                                <td>Green Paisley Print Tunic Midaxi Dress</td>
+                                <td>38</td>
+                                <td class="status-present">✅ PRESENT</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            
+            <div class="section">
+                <h2 class="section-title">📈 Recommendations</h2>
+                <div style="background: #fff3cd; border: 1px solid #ffeaa7; border-radius: 8px; padding: 20px;">
+                    <h4 style="color: #856404; margin-bottom: 15px;">🔧 Accessibility Improvements Needed:</h4>
+                    <ul style="color: #856404; margin-left: 20px;">
+                        <li>Add alt text to 3 thumbnail images (70x70 pixel versions)</li>
+                        <li>Ensure all decorative images have empty alt="" attributes</li>
+                        <li>Consider adding more descriptive alt text for product images</li>
+                        <li>Test with screen readers to verify accessibility</li>
+                    </ul>
+                    
+                    <h4 style="color: #856404; margin: 20px 0 15px 0;">🎯 Widget Detection Improvements:</h4>
+                    <ul style="color: #856404; margin-left: 20px;">
+                        <li>Size selector detection could be improved with dynamic interaction</li>
+                        <li>Consider adding more fallback selectors for price detection</li>
+                        <li>Implement confidence scoring for extracted data</li>
+                        <li>Add support for dynamic content loading detection</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="timestamp">
+                Enhanced report generated on 2025-06-24 at 14:56:00
+            </div>
+        </div>
+        
+        <div class="footer">
+            <p>Generated by Enhanced Matalan Page Analyzer | Accessibility & Widget Analysis Tool</p>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,31 @@
+{
+  "discovery_timestamp": "2025-06-24 15:04:47",
+  "base_url": "https://www.matalan.co.uk",
+  "robots_txt": null,
+  "sitemap_analysis": {
+    "total_urls_found": 0,
+    "categories": {
+      "product_pages": 0,
+      "category_pages": 0,
+      "brand_pages": 0,
+      "static_pages": 0,
+      "utility_pages": 0,
+      "other": 0
+    }
+  },
+  "sampling_strategy": {
+    "high_priority_pages": 0,
+    "medium_priority_pages": 0,
+    "low_priority_pages": 0,
+    "total_selected": 0
+  },
+  "selected_urls": {
+    "high_priority": [],
+    "medium_priority": [],
+    "low_priority": []
+  },
+  "crawl_settings": {
+    "crawl_delay": 2,
+    "user_agent": "Mozilla/5.0 (compatible; AccessibilityAnalyzer/1.0; +https://example.com/bot)"
+  }
+}
